@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+bch.zjot show | grep $(date "+%Y%m%dT")
