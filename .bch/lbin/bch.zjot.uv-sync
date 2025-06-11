@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+[ -d $BCH_ZJOT__root/.venv ] && exit
+pushd $BCH_ZJOT__root > /dev/null
+uv sync
+popd > /dev/null
