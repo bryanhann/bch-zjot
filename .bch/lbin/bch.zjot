@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
+bch.zjot.uv-sync
 
-bh notes zjot "$@"
+${BCH_ZJOT__root}/.venv/bin/bch-zjot "$@"
